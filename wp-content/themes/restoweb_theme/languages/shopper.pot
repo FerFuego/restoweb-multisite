@@ -1,0 +1,507 @@
+# Copyright (C) 2017 ShopperWP Team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopper 1.2.2\n"
+"Report-Msgid-Bugs-To: https://my.shopperwp.com/support\n"
+"POT-Creation-Date: 2017-06-30 17:00:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-06-07 22:20-0300\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_AR\n"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! Parece que esta página no existe."
+
+#: 404.php:24
+msgid ""
+"Nothing was found at this location. Please check your URL or use the search "
+"form below."
+msgstr ""
+"No se encontró nada en este lugar. Compruebe su URL o utilice el siguiente "
+"formulario de búsqueda."
+
+#: 404.php:49
+msgid "Product Categories"
+msgstr "Categorías de Producto"
+
+#: 404.php:58
+msgid "Popular Products"
+msgstr "Productos populares"
+
+#: comments.php:38 comments.php:57
+msgid "Comment navigation"
+msgstr "Comentario de navegación"
+
+#: comments.php:39 comments.php:58
+msgid "&larr; Older Comments"
+msgstr "Comentarios Antiguos"
+
+#: comments.php:40 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Nuevos Comentarios;"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: inc/class-shopper.php:98
+msgid "Primary Menu"
+msgstr "Menú Primario"
+
+#: inc/class-shopper.php:99
+msgid "Secondary Menu"
+msgstr "Menu Secundario"
+
+#: inc/class-shopper.php:100
+msgid "Footer Menu"
+msgstr "Menu de Pie"
+
+#: inc/class-shopper.php:101
+msgid "Social Menu"
+msgstr "Menu Social"
+
+#: inc/class-shopper.php:146
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: inc/class-shopper.php:152
+msgid "Below Header"
+msgstr "Debajo del encabezado"
+
+#: inc/class-shopper.php:154
+msgid ""
+"Widgets added to this region will appear beneath the header and above the "
+"main content."
+msgstr ""
+"Los widgets añadidos a esta región aparecerán debajo del encabezado y por "
+"encima del contenido principal."
+
+#: inc/class-shopper.php:158
+msgid "Shop Sidebar"
+msgstr "Comprar Sidebar"
+
+#: inc/class-shopper.php:160
+msgid "Widgets added to this region will appear beneath the shop sidebar."
+msgstr ""
+"Los widgets añadidos a esta región aparecerán debajo de la barra lateral de "
+"la tienda."
+
+#: inc/class-shopper.php:169
+msgid "Footer %d"
+msgstr "Pie %d"
+
+#: inc/class-shopper.php:171
+msgid "Widgetized Footer Region %d."
+msgstr "Región de pie de página widgetizada %d."
+
+#: inc/class-shopper.php:378
+msgid "Continue reading"
+msgstr "Continuar leyendo"
+
+#: inc/customizer/class-shopper-customizer-control-more.php:30
+msgid ""
+"There's a range of %s extensions available to put additional power in your "
+"hands. Check out the %s%s%s page in your dashboard for more information."
+msgstr ""
+"Hay una gama de extensiones %s disponibles para poner energía adicional en "
+"sus manos. Consulte la página %s%s%s en el panel para obtener más "
+"información."
+
+#: inc/customizer/class-shopper-customizer-control-more.php:33
+msgid "Enjoying %s?"
+msgstr "¿Disfrutando de %s?"
+
+#: inc/customizer/class-shopper-customizer-control-more.php:36
+msgid ""
+"Why not leave us a review on %sWordPress.org%s?  We'd really appreciate it!"
+msgstr ""
+"¿Por qué no dejarnos una opinión sobre %sWordPress.org%s?  ¡Realmente lo "
+"agradeceríamos!"
+
+#: inc/customizer/class-shopper-customizer.php:162
+msgid "Background"
+msgstr "Fondo"
+
+#: inc/customizer/class-shopper-customizer.php:166
+msgid "Header"
+msgstr "Enxabezado"
+
+#: inc/customizer/class-shopper-customizer.php:205
+msgid "Color"
+msgstr "Color"
+
+#: inc/customizer/class-shopper-customizer.php:218
+#: inc/customizer/class-shopper-customizer.php:401
+msgid "Heading color"
+msgstr "Color Encabezado"
+
+#: inc/customizer/class-shopper-customizer.php:233
+#: inc/customizer/class-shopper-customizer.php:285
+#: inc/customizer/class-shopper-customizer.php:416
+#: inc/customizer/class-shopper-customizer.php:455
+msgid "Text color"
+msgstr "Color Texto"
+
+#: inc/customizer/class-shopper-customizer.php:248
+msgid "Link / accent color"
+msgstr "Color de enlace / acento"
+
+#: inc/customizer/class-shopper-customizer.php:257
+msgid "Header background image"
+msgstr "Imagen de fondo de encabezado"
+
+#: inc/customizer/class-shopper-customizer.php:270
+#: inc/customizer/class-shopper-customizer.php:369
+#: inc/customizer/class-shopper-customizer.php:440
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: inc/customizer/class-shopper-customizer.php:300
+msgid "Link color"
+msgstr "Color enlace"
+
+#: inc/customizer/class-shopper-customizer.php:315
+msgid "Link Hover color"
+msgstr "Color de Link Hover"
+
+#: inc/customizer/class-shopper-customizer.php:326
+msgid "Home Page"
+msgstr "Página de inicio"
+
+#: inc/customizer/class-shopper-customizer.php:344
+msgid "Homepage Components"
+msgstr "Componentes Página Principal"
+
+#: inc/customizer/class-shopper-customizer.php:355
+msgid "Footer"
+msgstr "Pie"
+
+#: inc/customizer/class-shopper-customizer.php:357
+msgid "Customise the look & feel of your web site footer."
+msgstr ""
+"Personaliza el aspecto y la sensación del pie de página de tu sitio web."
+
+#: inc/customizer/class-shopper-customizer.php:385
+msgid "Widget Background color"
+msgstr "Widget Color de fondo"
+
+#: inc/customizer/class-shopper-customizer.php:426
+msgid "Buttons"
+msgstr "Botones"
+
+#: inc/customizer/class-shopper-customizer.php:428
+msgid "Customise the look & feel of your web site buttons."
+msgstr "Personaliza el aspecto de los botones de tu sitio web."
+
+#: inc/customizer/class-shopper-customizer.php:470
+msgid "Alternate button background color"
+msgstr "Color de fondo del botón alternativo"
+
+#: inc/customizer/class-shopper-customizer.php:485
+msgid "Alternate button text color"
+msgstr "Color de texto del botón alternativo"
+
+#: inc/customizer/class-shopper-customizer.php:495
+msgid "Layout"
+msgstr "Diseño"
+
+#: inc/customizer/class-shopper-customizer.php:507
+msgid "General Layout"
+msgstr "Diseño General"
+
+#: inc/customizer/class-shopper-customizer.php:521
+msgid "More"
+msgstr "Más"
+
+#: inc/customizer/class-shopper-customizer.php:531
+msgid "Looking for more options?"
+msgstr "¿Busca más opciones?"
+
+#: inc/shopper-template-functions.php:57
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario está a la espera de moderación."
+
+#: inc/shopper-template-functions.php:71
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/shopper-template-functions.php:126
+msgid "Primary Navigation"
+msgstr "Navegación primaria"
+
+#: inc/shopper-template-functions.php:227
+msgid "Secondary Navigation"
+msgstr "Navegación Secundaria"
+
+#: inc/shopper-template-functions.php:249
+msgid "Social Navigation"
+msgstr "Navegación Social"
+
+#: inc/shopper-template-functions.php:272
+msgid "Skip to navigation"
+msgstr "Saltar a la navegación"
+
+#: inc/shopper-template-functions.php:273
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: inc/shopper-template-functions.php:358
+#: inc/shopper-template-functions.php:534
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: inc/shopper-template-functions.php:456
+msgid " %1$s Designed by %2$s."
+msgstr " %1$s Diseñado por %2$s."
+
+#: inc/shopper-template-functions.php:569
+#: inc/shopper-template-functions.php:1194
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: inc/shopper-template-functions.php:569
+#: inc/shopper-template-functions.php:1194
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: inc/shopper-template-functions.php:569
+#: inc/shopper-template-functions.php:1194
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: inc/shopper-template-functions.php:588
+msgid "[Continue Reading ...]"
+msgstr "[Continuar Leyendo ...]"
+
+#: inc/shopper-template-functions.php:611
+msgid "By"
+msgstr "Por"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/shopper-template-functions.php:617
+#: inc/shopper-template-functions.php:630
+msgid ", "
+msgstr ", "
+
+#: inc/shopper-template-functions.php:622
+msgid "Posted in"
+msgstr "Publicado en"
+
+#: inc/shopper-template-functions.php:635
+msgid "Tagged"
+msgstr "Etiquetado"
+
+#: inc/shopper-template-functions.php:872
+msgid "Edit this section"
+msgstr "Editar esta sección"
+
+#: inc/shopper-template-functions.php:901
+msgid "Shop by Category"
+msgstr "Comprar por categoría"
+
+#: inc/shopper-template-functions.php:942
+msgid "Recent Products"
+msgstr "Productos recientes"
+
+#: inc/shopper-template-functions.php:983
+msgid "We Recommend"
+msgstr "Recomendamos"
+
+#: inc/shopper-template-functions.php:1024
+msgid "Fan Favorites"
+msgstr "Favoritos de los fans"
+
+#: inc/shopper-template-functions.php:1063
+msgid "On Sale"
+msgstr "Venta"
+
+#: inc/shopper-template-functions.php:1100
+msgid "Best Sellers"
+msgstr "Los mas vendidos"
+
+#: inc/shopper-template-functions.php:1127
+msgid "The latest news"
+msgstr "Las últimas noticias"
+
+#: inc/woocommerce/class-shopper-woocommerce.php:188
+#: inc/woocommerce/shopper-wc-template-functions.php:666
+msgid "%s Product"
+msgid_plural "%s Products"
+msgstr[0] "%s Producto"
+msgstr[1] "%s Productos"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:100
+#: inc/woocommerce/shopper-wc-template-functions.php:534
+msgid "View your shopping cart"
+msgstr "Ver su carrito de compras"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:102
+msgid "Cart"
+msgstr "Carrito"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:158
+msgid "Search for products"
+msgstr "Búsqueda de productos"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:178
+msgid "All"
+msgstr "Todo"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:269
+#: inc/woocommerce/shopper-wc-template-functions.php:548
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:275
+msgid "Login / Register"
+msgstr "Inicio de sesión / Registro"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:438
+msgid "Featured Products"
+msgstr "Productos destacados"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:446
+msgid "On Sale Now"
+msgstr "En venta ahora"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:454
+msgid "New In Store"
+msgstr "Nuevo en la tienda"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:521
+msgid "Search"
+msgstr "Búsqueda"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:634
+msgid "Add to Wishlist"
+msgstr "Añadir a la lista de deseos"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:640
+msgid "Added!"
+msgstr "¡Añadido!"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:641
+msgid "View Wishlist"
+msgstr "Ver lista de deseos"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:646
+msgid "The product is already in the wishlist!"
+msgstr "¡El producto ya está en la lista de deseos!"
+
+#: inc/woocommerce/shopper-wc-template-functions.php:647
+msgid "Browse Wishlist"
+msgstr "Explorar lista de deseos"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda por: %s"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#: template-parts/content-none.php:19
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Listo para publicar tu primera publicación? <a href-\"%1$s\">Empezar aquí</"
+"a>."
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos, pero nada coincide con sus términos de búsqueda. Inténtelo de "
+"nuevo con algunas palabras clave diferentes."
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no podemos encontrar lo que estás buscando. Tal vez buscar pueda "
+"ayudar."
+
+#. Theme Name of the plugin/theme
+msgid "Shopper"
+msgstr "Comprador"
+
+#. Theme URI of the plugin/theme
+msgid "https://shopperwp.com/themes/shopper"
+msgstr "https://shopperwp.com/themes/shopper"
+
+#. Description of the plugin/theme
+msgid ""
+"The Shopper is free WooCommerce & Business WordPress Theme. It provides "
+"simply a cool and clean design, easy to use, customizable and fast WordPress "
+"theme designed thinking about users needs and requests. It is fully "
+"responsive, translation ready,  SEO friendly theme with Structured data "
+"integrates for Articles & Products Structured data and integrates the "
+"industry standard WooCommerce, YITH WooCommerce Wishlist.  The theme will be "
+"a perfect choice for online fashion store, sports store, handbags store, "
+"digital shop, men, kids or women store, cosmetics shop, accessories store, "
+"luxury jewelry and multipurpose online stores. See demo: https://demo."
+"shopperwp.com/shopper/"
+msgstr ""
+"El Comprador es gratis WooCommerce & Business WordPress Theme. Proporciona "
+"simplemente un diseño fresco y limpio, fácil de usar, tema de WordPress "
+"personalizable y rápido diseñado pensando en las necesidades y solicitudes "
+"de los usuarios. Es totalmente responsivo, listo para la traducción, tema "
+"amigable SEO con datos estructurados se integra para Artículos y Productos "
+"Datos estructurados e integra el estándar de la industria WooCommerce, YITH "
+"WooCommerce Wishlist.  El tema será una opción perfecta para tienda de moda "
+"en línea, tienda de deportes, tienda de bolsos, tienda digital, hombres, "
+"niños o mujeres tienda, tienda de cosméticos, tienda de accesorios, joyería "
+"de lujo y tiendas en línea multiusos. Ver demostración: https://demo."
+"shopperwp.com/shopper/"
+
+#. Author of the plugin/theme
+msgid "ShopperWP Team"
+msgstr "Equipo ShopperWP"
+
+#. Author URI of the plugin/theme
+msgid "https://shopperwp.com"
+msgstr "https://shopperwp.com"
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr "Ancho completo"
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Página Principal"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensamiento en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensamientos en &ldquo;%2$s&rdquo;"
+
+#: inc/shopper-template-functions.php:658
+msgctxt "Next post"
+msgid "Next"
+msgstr "Próximo"
+
+#: inc/shopper-template-functions.php:659
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Previo"
+
+#: inc/shopper-template-functions.php:697
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado en %s"
+
+#: woocommerce/global/quantity-input.php:32
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Cantidad"

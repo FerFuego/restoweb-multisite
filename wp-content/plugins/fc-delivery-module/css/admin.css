@@ -1,0 +1,120 @@
+.d-flex {
+    display:flex;
+}
+.d-none {
+    display: none;
+}
+.flex-row {
+    flex-direction: row;
+}
+.align-center {
+    align-items: center;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-left {
+    justify-content: left;
+}
+#form-send-options label {
+    font-weight: 700;
+}
+#form-send-options input {
+    width: 100%;
+}
+#form-send-options select {
+    width: 100%;
+}
+.wc-rss-importer-header {
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+.wc-rss-importer-header img {
+    margin-right: 10px;
+}
+.wc-rss-importer-form {
+    position: relative;
+    min-width: 255px;
+    width: 100%;
+}
+.importer-container {
+    background-color: #FFF;
+    min-width: 255px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    width: 80%;
+}
+.wc-rss-importer-form h3 {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ccd0d4;
+}
+.wc-rss-importer-form .form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+.wc-rss-importer-form .form div{
+    width: 100%;
+}
+.wc-rss-importer-form .form .group-shortwith {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    width: 30%;
+}
+.wc-rss-importer-form .form .group-fullwith {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+}
+.wc-rss-importer-form .form .group-right {
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FFF;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    width: 15%;
+}
+.wc-rss-importer-form .form input, .wc-rss-importer-form .form select{
+    margin: 5px 0;
+    width: 100%;
+    max-width: 100%;
+}
+.wc-rss-importer-form .form div {
+    margin: 0 10px 0 0; 
+}
+.wc-table-striped {
+    border: 1px solid #ccd0d4;
+    width: 100%;
+}
+.wc-table-striped thead{
+    background-color: #ccc;
+}
+.wc-table-striped tr {
+    border: 1px solid #ccd0d4;
+}
+.wc-table-striped td {
+    padding: 2px 5px;
+}
+
+@media ( max-width: 768px ) {
+    .importer-container {
+        width: 100%;
+    }
+    .wc-rss-importer-form .form {
+        flex-direction: column;
+        width: 100%;
+    }
+    .wc-rss-importer-form .form .group-shortwith {
+        width: 100%;
+    }
+    .wc-rss-importer-form .form .group-right {
+        position: relative;
+        top: initial;
+        right: initial;
+        width: 100%;
+    }
+}

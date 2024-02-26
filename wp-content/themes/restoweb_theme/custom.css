@@ -1,0 +1,345 @@
+/** PRODUCTS **/
+.panel .product {
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    position: relative;
+    display: flex;
+    font-family: 'Raleway-SemiBold';
+    flex-direction: row;
+    align-items: flex-start;
+}
+.summary {
+    padding-top: 0 !important;
+}
+.summary table {
+    margin-bottom: 0;
+}
+.summary table tr {
+    width: 100%;
+    display: flex;
+}
+.summary table tr td {
+    font-size: 16px;
+}
+.summary table tr .first-row {
+    text-align: left !important;
+    width: 100%;
+    max-width: 20px;
+}
+.summary table tr td:nth-child(2) {
+    font-weight: 300;
+    font-size: 16px;
+}
+.summary table tr .full-width {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+    width: 100% !important;
+}
+.summary table tr td {
+    padding: 5px;
+}
+.entry-summary {
+    padding-top: 15px;
+    width: 100%;
+} 
+.summary table tr td h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.add_to_cart_inline {
+    border: none !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.add_to_cart_button,
+.product_type_simple,
+.added_to_cart {
+    background-color: var(--main-primary-color) !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    color: white !important;
+    cursor: pointer;
+    text-align: left !important;
+    border: none !important;
+    border-radius: 5px !important;
+    outline: none !important;
+    line-height: 0 !important;
+    transition: 0.4s !important;
+    padding: 0px 25px !important;
+    font-family: 'Raleway-SemiBold' !important;
+    font-size: 12px !important;
+    text-decoration: none !important;
+    position: relative !important;
+}
+.added_to_cart {
+    margin-left: 10px;
+}
+.row-btns-cart {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start !important;
+}
+.fa-shopping-cart {
+    padding-right: 8px !important;
+}
+.menu-header {
+    position: absolute; 
+    bottom: 0;
+    padding: 10px 15px; 
+    background-color: rgba(0,0,0,0.3);
+    justify-content: space-around;
+    width: 100%;
+}
+.toggle-me {
+    display: none;
+}
+.close-me {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .summary table tr .first-row {
+        text-align: left !important;
+        width: 100%;
+        max-width: 15px;
+    }
+    .summary table tr td:nth-child(2) {
+        padding: 5px 0 !important;
+        /*text-align: right !important;*/
+        width: 100% !important;
+    }
+    .summary table tr td {
+        font-size: 16px !important;
+    }
+    .panel .product .woocommerce-product-gallery {
+        margin-right: 0 !important;
+    }
+    .row-btns-cart {
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+    }
+    .add_to_cart_button,
+    .product_type_simple,
+    .added_to_cart {
+        background-color: var(--main-primary-color) !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        color: white !important;
+        cursor: pointer;
+        text-align: center !important;
+        border: none !important;
+        border-radius: 5px !important;
+        outline: none !important;
+        line-height: 0 !important;
+        transition: 0.4s !important;
+        padding: 0px 15px !important;
+        font-family: 'Raleway-SemiBold' !important;
+        font-size: 9px !important;
+        text-decoration: none !important;
+        position: relative !important;
+        width: 100%;
+    }
+    .added_to_cart {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .quantity {
+        width: 100%;
+    }
+    .quantity input[type="number"] {
+        width: max-content;
+    }
+    .toggle-me {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 30px;
+    }
+    .close-me {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 30px;
+    }
+    .menu-header {
+        background-color: white;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        margin-top: 0;
+        margin-bottom: -26px;
+        padding: 80px 15px 10px;
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+        transition: all .3s;
+        transform: translateX(-300px);
+        width: 300px;
+        z-index: 10;
+    }
+    .menu-header div {
+        margin-bottom: 30px;
+    }
+    .menu-header.active {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+.col-md-12,
+.col-lg-9 {
+    padding: 0 !important;
+}
+.panel .product .woocommerce-tabs {
+    display: none;
+}
+.panel .product .onsale {
+    background-color: var(--main-secundary-color);
+    font-family: 'Raleway-Medium';
+    font-size: 9px;
+    top: 5px !important;
+}
+.panel .product .woocommerce-product-gallery {
+    position: relative;
+    margin-right: 0;
+}
+.panel .product .woocommerce-product-gallery__trigger {
+    background-color: var(--main-secundary-color);
+    font-family: 'Raleway-Medium';
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: block;
+    height: 2em;
+    width: 2em;
+    border-radius: 3px;
+    z-index: 99;
+    text-align: center;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.panel .product .woocommerce-product-gallery__trigger:before {
+    color: #ffF;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+    content: "\f00e";
+    line-height: 2;
+    text-indent: 0;
+}
+.panel .product .product_meta {
+    display: none;
+}
+.panel .product .product_title {
+    font-size: 30px;
+    font-family: 'Raleway-Medium';
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.panel .product .woocommerce-Price-amount {
+    font-size: 25px;
+    font-family: 'Raleway-Medium';
+    margin-bottom: 0;
+}
+.panel .product .price {
+    margin-bottom: 0;
+}
+.panel .product .woocommerce-product-details__short-description {
+    font-family: 'Raleway-Medium';
+}
+.panel .product .woocommerce-product-details__short-description p {
+    margin-bottom: 10px !important;
+}
+.panel .product .summary .cart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Raleway-Medium';
+}
+.panel .product .summary .cart input {
+    border-radius: 5px;
+}
+.panel .product .summary .cart textarea {
+    overflow: auto;
+    padding-left: 0.875em;
+    width: 100%;
+    min-height: 90px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.panel .product .summary .cart table {
+    margin-bottom: 0 !important;
+}
+.panel .product .summary .cart .quantity {
+    margin-bottom: 15px;
+}
+.panel .product .summary .cart .quantity input[type="number"] {
+    font-family: 'Raleway-Medium';
+}
+.panel .product .summary .cart tr { display: block; float: left; }
+.panel .product .summary .cart th, td { display: block; }
+.panel .product .summary .cart .variations .value {
+    padding: 5px;
+}
+.panel .product .summary .cart .variations .label {
+    padding: 5px;
+}
+.panel .product .summary .cart .variations select {
+    padding: 5px;
+    font-family: 'Raleway-Medium';
+}
+.panel .product .summary .cart .single_variation_wrap {
+    width: 100%;
+}
+.panel .product .summary .cart .single_variation_wrap .woocommerce-variation-add-to-cart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.panel .product .summary .cart .single_add_to_cart_button {
+    background-color: var(--main-secundary-color);
+    font-family: 'Raleway-Medium';
+    font-size: 12px;
+    border-radius: 5px;
+}
+.pswp__caption {
+    display: none;
+}
+
+.quantity .qty-minus {
+    border-radius: 5px 0 0 5px !important;
+    margin-right: -4px !important;
+}
+.quantity .input-text {
+    margin-top: 1px !important;
+}
+.quantity .qty-add {
+    border-radius: 0 5px 5px 0 !important;
+    margin-left: -4px !important;
+}
+
+.woocommerce-product-gallery {
+    width: 50%;
+    max-width: 50%;
+}
